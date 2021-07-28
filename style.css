@@ -1,0 +1,121 @@
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: aquamarine;
+}
+.container
+{
+    padding:30px;
+}
+.logo
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+    font-family: cursive;
+    float: left;
+    
+}
+.nav{
+    background-color: peru;
+    padding:30px 80px 50px 60px;
+}
+
+.nav-bar
+{
+    float:right;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+.nav-bar a{
+    text-decoration: none;
+    padding:14px 14px;
+    
+}
+.nav-bar a:hover{ 
+    cursor: pointer;
+    background-color: blue;
+    color:orangered;
+}
+.nav-bar a.active
+{
+    background-color: pink;
+}
+.header  {
+    width:100%;
+    height: 400px;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url(p.jpg);
+    background-size: cover;
+   
+
+}
+.matter
+{
+   
+    color:white;
+    font-size: 30px;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    border:3px solid orangered;
+    background-color: black; 
+     opacity: 0.7;
+}
+.team
+{
+    border:0px solid white;
+    text-align: center
+    ;
+
+    
+}
+.row::after
+{
+    clear:both;
+    display: none;
+    content:"";
+}
+
+.col-25
+{
+    width:25%;
+    float:left;
+    margin-top:10px;
+}
+.col-75
+{
+    width:25%;
+    float:left;
+    margin-top:10px;
+}
+
+.team img:hover{
+    border: 8px solid yellowgreen;
+    border-radius: 30px;
+    cursor: pointer;
+    width:300px;
+    height:300px;
+}
+.news p{
+    text-justify: auto;
+    text-align: justify;
+    border:5px solid white;
+    
+    
+}
+.news{
+    text-align: center;
+}
+.enquiry
+{
+    text-align: center;
+}
